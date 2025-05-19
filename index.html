@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AKBAR CRICKET REPORTER</title>
+
+  <!-- Styles -->
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: #111;
+      color: #fff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #ffeb3b;
+      font-size: 6vw;
+      margin-top: 20px;
+    }
+
+    .profile-img {
+      width: 45vw;
+      max-width: 200px;
+      height: 45vw;
+      max-height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid white;
+      margin: 20px 0;
+    }
+
+    p {
+      margin: 10px 0;
+      font-size: 4.5vw;
+      max-width: 90%;
+    }
+
+    .highlight {
+      color: #ff69b4;
+      font-weight: bold;
+    }
+
+    .btn {
+      background-color: yellow;
+      color: black;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 12px;
+      font-size: 4vw;
+      font-weight: bold;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin-top: 20px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      animation: pop 1.5s ease-in-out infinite;
+    }
+
+    .btn:hover {
+      background-color: #f1c40f;
+    }
+
+    .disclaimer {
+      font-size: 3vw;
+      color: #aaa;
+      margin-top: 30px;
+      max-width: 90%;
+    }
+
+    @media (min-width: 768px) {
+      h1 {
+        font-size: 32px;
+      }
+
+      p {
+        font-size: 18px;
+      }
+
+      .btn {
+        font-size: 18px;
+      }
+
+      .disclaimer {
+        font-size: 14px;
+      }
+
+      .profile-img {
+        width: 180px;
+        height: 180px;
+      }
+    }
+
+    @keyframes pop {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }
+  </style>
+
+  <!-- Meta Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '4112936698972515');
+    fbq('track', 'PageView');
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=4112936698972515&ev=PageView&noscript=1" />
+  </noscript>
+  <!-- End Meta Pixel Code -->
+
+</head>
+<body>
+
+  <h1>👑 AKBAR CRICKET REPORTER 👑</h1>
+
+  <img src="https://i.postimg.cc/MGPJZDXd/photo-6145414987699570811-x.jpg" alt="AKBAR CRICKET REPORTER" class="profile-img" />
+
+  <p>📢 <strong>Free Cricket Analysis</strong> 📢</p>
+  <p>😍 <span class="highlight">50/52 Match Pass IPL 2025</span> 😍</p>
+  <p>👑 <strong>AKBAR CRICKET REPORTER</strong> 👑</p>
+
+  <a href="https://t.me/+B2mTvw1MugowZTE1" target="_blank" class="btn" id="subscribeBtn">
+    SUBSCRIBE NOW 🚀
+  </a>
+
+  <p class="disclaimer">Disclaimer: only for audience of age 18 years & above</p>
+
+</body>
+</html>
